@@ -6,7 +6,7 @@
 
 Gai is the newest, easiest way to interact, transact, and use the guld blocktree.
 
-![](https://guld.chat/IMG/gai.jpg)
+![](https://github.com/guldcoin/guld-chat/tree/master/img/gai.jpg)
 
 
 ### Type `/help` to say hi!
