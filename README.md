@@ -1,2 +1,14 @@
-# guld-chat
-guld chat telegram gai bot guide website.
+# Guld Email
+
+* Install dependencies:
+
+```bash
+npm install
+```
+
+
+* Compile:
+
+```bash
+npm run docs
+```
