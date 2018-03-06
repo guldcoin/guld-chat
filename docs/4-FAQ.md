@@ -1,4 +1,4 @@
-## guld.email FAQ - Intro to PGP
+## guld.chat FAQ - Intro to PGP
 
 
 
@@ -20,12 +20,12 @@ PGP works through Private and Public key Pairings, created by each user on a tru
 4. `Assign permisions` to who can acces files in your personal guld file cloud. 
 5. `Access` your guld cloud files from any [TigoCTM machine](https://tigoctm.com).
 
-### How does the guld.email page work?
-This page will generate an email template to send over to `public@iramiller.com`
+### How does the guld.chat page work?
+This page will generate an chat template to send over to `public@iramiller.com`
 
 1. Hit the `send` button to prepare a send transaction. 
 2. Fill in the the `sender`, `receiver` and `amount` fields, then hit generate. 
-3. This will open your email client and attach the transaction file. If setup with PGP encryption, send as inline encrypted message, to `public@iramiller.com` 
+3. This will open your chat client and attach the transaction file. If setup with PGP encryption, send as inline encrypted message, to `public@iramiller.com` 
 
 
 

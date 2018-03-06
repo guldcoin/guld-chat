@@ -1,4 +1,4 @@
-# Guld Email
+# Guld Chat
 
 * Install dependencies:
 

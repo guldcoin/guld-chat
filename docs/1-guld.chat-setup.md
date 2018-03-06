@@ -41,7 +41,7 @@ Once you're in the group, send `gai` a friendly message with your application re
 
 ![Gai Screenshot private message](img/gai2.png)
 
-Once your application request has been accepted, [you will need to sign your registration transaction.](email.chat/3-transactions/2-Registration.html)
+Once your application request has been accepted, [you will need to sign your registration transaction.](guld.chat/3-transactions/2-Registration.html)
 
 
 ### Setting up your guld Identity.
@@ -55,7 +55,7 @@ The price for registration is currently 1 guld.
 
 
  
-hover your mouse over your email in the list in pgpsuite
+hover your mouse over your chat in the list in pgpsuite
 
 
 

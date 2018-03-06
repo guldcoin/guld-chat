@@ -11,7 +11,7 @@ When you complete work for guld, you can be awarded coins through grant contract
 
 Depending on your operating system, the signing process will be a bit different.
 
-Here are some tips for [Linux PGP Signing](http://guld.email/2-installation/2-Linux.html), [MacOS PGP Signing](http://guld.email/2-installation/3-MacOS.html), and [Windows PGP Signing](http://guld.email/2-installation/4-Windows.html)
+Here are some tips for [Linux PGP Signing](http://guld.chat/2-installation/2-Linux.html), [MacOS PGP Signing](http://guld.chat/2-installation/3-MacOS.html), and [Windows PGP Signing](http://guld.chat/2-installation/4-Windows.html)
 
 To sign a grant, you must:
 

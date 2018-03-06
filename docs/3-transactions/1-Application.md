@@ -3,13 +3,13 @@
 
 1. To apply for an application you must first be part of gulds [Telegram group](https://t.me/guldcoin).
 
-2. You must also be set up with a [PGP Key](http://guld.email/4-FAQ.html)
+2. You must also be set up with a [PGP Key](http://guld.chat/4-FAQ.html)
 
 3. You can now apply for an application using [gulds](guld.io) ai Telegram bot, Gai
 
 ## Sign-Up Instructions using the Gai bot
 
-1. Generate a [PGP Key](http://guld.email/4-FAQ.html) key (2048+ bit RSA)
+1. Generate a [PGP Key](http://guld.chat/4-FAQ.html) key (2048+ bit RSA)
 
 2. Once youre set up with your PGP key, go into gulds Telegram group and type: /apply \<username> \<pgp-pub-key>
   
