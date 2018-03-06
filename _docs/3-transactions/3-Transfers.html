@@ -30,7 +30,7 @@
         h4,
         h5,
         h6 {
-            color: #260740;
+            color: #3c3e3d;
             font-weight: 300;
         }
 
@@ -57,7 +57,7 @@
         }
 
         a {
-            color: #5d387e;
+            color: #203990;
         }
 
         .sticky-top {
@@ -71,18 +71,19 @@
             font-weight: 200;
         }
 
-        .header {
-            width: 100%;
-            background: #744f92;
-        }
-
-        .header .container {
-            padding: 0;
+        .navbar {
+            background: url("../img/back.png");
+            line-height: 14rem;
+            color: #fff;
         }
 
         .navbar #logo {
             width: 5rem;
             margin-right: 0.2rem;
+        }
+
+        .navbar a {
+            color: #fff !important;
         }
 
         .header #text {
@@ -156,8 +157,8 @@
         .list-group li a.active {
             z-index: 2;
             color: #fff;
-            background-color: #734f92;
-            border-color: #50316b;
+            background-color: #3c3e3d;
+            border-color: #3c3e3d;
         }
 
         .list-group li a:focus,
@@ -202,14 +203,18 @@
             display: block;
             text-transform: capitalize;
         }
+
+        #cover .heading {
+            display: none;
+        }
     </style>
 </head>
 
 <body>
     <div id="cover" class="d-print-block">
-        <img id="logo" src="../img/logo.svg" class="img-responsive" alt="Guld">Email
+        <img id="logo" src="../img/logo.svg" class="img-responsive" alt="Guld">Chat
         <ul>
-<li><a class="" href="..\1-guld.chat-setup.html">guld.chat setup</a></li>
+<li><a class="" href="../1-guld.chat-setup.html">guld.chat setup</a></li>
 <li class="heading">transactions</li>
 <ul>
 <li><a class="" href="1-Application.html">Application</a></li>
@@ -217,15 +222,15 @@
 <li><a class="active" href="3-Transfers.html">Transfers</a></li>
 <li><a class="" href="4-Grants.html">Grants</a></li>
 </ul>
-<li><a class="" href="..\4-FAQ.html">FAQ</a></li>
+<li><a class="" href="../4-FAQ.html">FAQ</a></li>
 </ul>
     </div>
 
     <!-- Navigation -->
-    <nav class="navbar sticky-top navbar-expand navbar-light d-print-none">
+    <nav class="navbar navbar-expand navbar-light d-print-none">
         <div class="container">
             <a class="navbar-brand page-scroll" href="#page-top">
-                <img id="logo" src="../img/logo.svg" class="img-responsive" alt="Guld">Email
+                <img id="logo" src="../img/logo-light.svg" class="img-responsive" alt="Guld">Chat
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -234,19 +239,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" data-toggle="modal" data-target="#guld_transfer_modal">
-                            Send
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" data-toggle="modal" data-target="#guld_grant_modal">
-                            Grant
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" data-toggle="modal" data-target="#guld_registration_modal">
-                            Register
-                        </a>
+                        The guld AI.
                     </li>
                 </ul>
             </div>
@@ -254,18 +247,12 @@
     </nav>
     <!-- .nav -->
 
-    <header class="header">
-        <div class="container">
-            <div id="text">Email OpenPGP instructions</div>
-        </div>
-    </header>
-
     <section id="content" class="container">
         <div class="row row-offcanvas row-offcanvas-left">
             <div class="col-6 col-md-3 sidebar-offcanvas d-print-none" id="sidebar">
                 <div class="list-group">
                     <ul>
-<li><a class="" href="..\1-guld.chat-setup.html">guld.chat setup</a></li>
+<li><a class="" href="../1-guld.chat-setup.html">guld.chat setup</a></li>
 <li class="heading">transactions</li>
 <ul>
 <li><a class="" href="1-Application.html">Application</a></li>
@@ -273,7 +260,7 @@
 <li><a class="active" href="3-Transfers.html">Transfers</a></li>
 <li><a class="" href="4-Grants.html">Grants</a></li>
 </ul>
-<li><a class="" href="..\4-FAQ.html">FAQ</a></li>
+<li><a class="" href="../4-FAQ.html">FAQ</a></li>
 </ul>
                 </div>
             </div>
