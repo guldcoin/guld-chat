@@ -6,7 +6,7 @@
 
 Gai is the newest, easiest way to interact, transact, and use the guld blocktree.
 
-![](http://github.com/ferdreyfus/guld-chat/blob/master/img/gai.png)
+![](img/gai.jpg)
 
 
 ### Type `/help` to say hi!
@@ -15,7 +15,7 @@ The `/help` command presents you with the list of available commands to use with
 
 ###  [Download Telegram](https://telegram.org/) To interact with Gai. 
 
-![Telegram](https://github.com/ferdreyfus/guld-chat/blob/master/img/telegram.png)
+![Telegram](img/telegram.png)
 
  Telegram, the bot enabled chat app is the easiest way to interact with the guld network. 
  
@@ -39,7 +39,7 @@ Tying up your PGP key to your Guld Username on our [Telegram Group](https://t.me
 
 Once you're in the group, send `gai` a friendly message with your application request!
 
-![Gai Screenshot private message](http:guld.chat/IMG/gai2.png)
+![Gai Screenshot private message](img/gai2.png)
 
 Once your application request has been accepted, [you will need to sign your registration transaction.](email.chat/3-transactions/2-Registration.html)
 
@@ -50,7 +50,7 @@ Now that your application has been approved by a guld member, you may [sign your
 
 The price for registration is currently 1 guld.
 
-![Registration Transaction to gai](http:guld.chat/IMG/gai2.png))
+![Registration Transaction to gai](img/gai2.png))
 
 
 

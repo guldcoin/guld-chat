@@ -30,7 +30,7 @@
         h4,
         h5,
         h6 {
-            color: #260740;
+            color: #3c3e3d;
             font-weight: 300;
         }
 
@@ -57,7 +57,7 @@
         }
 
         a {
-            color: #5d387e;
+            color: #203990;
         }
 
         .sticky-top {
@@ -71,18 +71,19 @@
             font-weight: 200;
         }
 
-        .header {
-            width: 100%;
-            background: #744f92;
-        }
-
-        .header .container {
-            padding: 0;
+        .navbar {
+            background: url("../img/back.png");
+            line-height: 14rem;
+            color: #fff;
         }
 
         .navbar #logo {
             width: 5rem;
             margin-right: 0.2rem;
+        }
+
+        .navbar a {
+            color: #fff !important;
         }
 
         .header #text {
@@ -156,8 +157,8 @@
         .list-group li a.active {
             z-index: 2;
             color: #fff;
-            background-color: #734f92;
-            border-color: #50316b;
+            background-color: #3c3e3d;
+            border-color: #3c3e3d;
         }
 
         .list-group li a:focus,
@@ -202,30 +203,34 @@
             display: block;
             text-transform: capitalize;
         }
+
+        #cover .heading {
+            display: none;
+        }
     </style>
 </head>
 
 <body>
     <div id="cover" class="d-print-block">
-        <img id="logo" src="../img/logo.svg" class="img-responsive" alt="Guld">Email
+        <img id="logo" src="../img/logo.svg" class="img-responsive" alt="Guld">Chat
         <ul>
 <li><a class="active" href="1-guld.chat-setup.html">guld.chat setup</a></li>
 <li class="heading">transactions</li>
 <ul>
-<li><a class="" href="3-transactions\1-Application.html">Application</a></li>
-<li><a class="" href="3-transactions\2-Registration.html">Registration</a></li>
-<li><a class="" href="3-transactions\3-Transfers.html">Transfers</a></li>
-<li><a class="" href="3-transactions\4-Grants.html">Grants</a></li>
+<li><a class="" href="3-transactions/1-Application.html">Application</a></li>
+<li><a class="" href="3-transactions/2-Registration.html">Registration</a></li>
+<li><a class="" href="3-transactions/3-Transfers.html">Transfers</a></li>
+<li><a class="" href="3-transactions/4-Grants.html">Grants</a></li>
 </ul>
 <li><a class="" href="4-FAQ.html">FAQ</a></li>
 </ul>
     </div>
 
     <!-- Navigation -->
-    <nav class="navbar sticky-top navbar-expand navbar-light d-print-none">
+    <nav class="navbar navbar-expand navbar-light d-print-none">
         <div class="container">
             <a class="navbar-brand page-scroll" href="#page-top">
-                <img id="logo" src="../img/logo.svg" class="img-responsive" alt="Guld">Email
+                <img id="logo" src="../img/logo-light.svg" class="img-responsive" alt="Guld">Chat
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -234,31 +239,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" data-toggle="modal" data-target="#guld_transfer_modal">
-                            Send
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" data-toggle="modal" data-target="#guld_grant_modal">
-                            Grant
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" data-toggle="modal" data-target="#guld_registration_modal">
-                            Register
-                        </a>
+                        The guld AI.
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
     <!-- .nav -->
-
-    <header class="header">
-        <div class="container">
-            <div id="text">Email OpenPGP instructions</div>
-        </div>
-    </header>
 
     <section id="content" class="container">
         <div class="row row-offcanvas row-offcanvas-left">
@@ -268,10 +255,10 @@
 <li><a class="active" href="1-guld.chat-setup.html">guld.chat setup</a></li>
 <li class="heading">transactions</li>
 <ul>
-<li><a class="" href="3-transactions\1-Application.html">Application</a></li>
-<li><a class="" href="3-transactions\2-Registration.html">Registration</a></li>
-<li><a class="" href="3-transactions\3-Transfers.html">Transfers</a></li>
-<li><a class="" href="3-transactions\4-Grants.html">Grants</a></li>
+<li><a class="" href="3-transactions/1-Application.html">Application</a></li>
+<li><a class="" href="3-transactions/2-Registration.html">Registration</a></li>
+<li><a class="" href="3-transactions/3-Transfers.html">Transfers</a></li>
+<li><a class="" href="3-transactions/4-Grants.html">Grants</a></li>
 </ul>
 <li><a class="" href="4-FAQ.html">FAQ</a></li>
 </ul>
@@ -282,11 +269,11 @@
                     <h1>guld.chat - A telegram ai interface for guld.</h1>
 <h2>gai - a guld artificial inteligence Telegram bot.</h2>
 <p>Gai is the newest, easiest way to interact, transact, and use the guld blocktree.</p>
-<p><img src="http://github.com/ferdreyfus/guld-chat/blob/master/img/gai.png" alt=""></p>
+<p><img src="img/gai.jpg" alt=""></p>
 <h3>Type <code>/help</code> to say hi!</h3>
 <p>The <code>/help</code> command presents you with the list of available commands to use with gai.</p>
 <h3><a href="https://telegram.org/">Download Telegram</a> To interact with Gai.</h3>
-<p><img src="https://github.com/ferdreyfus/guld-chat/blob/master/img/telegram.png" alt="Telegram"></p>
+<p><img src="img/telegram.png" alt="Telegram"></p>
 <p>Telegram, the bot enabled chat app is the easiest way to interact with the guld network.</p>
 <p>Gai will help you apply for a username, register your personal or organization’s account, send and receive payments and also grants for work provided to the guld network meritocracy!</p>
 <h3><a href="http://guld.chat/4-FAQ.html">Set up your PGP Identity for signing and encrypting</a></h3>
@@ -297,12 +284,12 @@
 <p>Tying up your PGP key to your Guld Username on our <a href="https://t.me/guldcoin">Telegram Group</a></p>
 <p><a href="https://t.me/guldcoin">Join the <code>Guld</code> group and follow the instructions here to apply for your guld username.</a></p>
 <p>Once you’re in the group, send <code>gai</code> a friendly message with your application request!</p>
-<p><img src="http:guld.chat/IMG/gai2.png" alt="Gai Screenshot private message"></p>
+<p><img src="img/gai2.png" alt="Gai Screenshot private message"></p>
 <p>Once your application request has been accepted, <a href="email.chat/3-transactions/2-Registration.html">you will need to sign your registration transaction.</a></p>
 <h3>Setting up your guld Identity.</h3>
 <p>Now that your application has been approved by a guld member, you may <a href="http://guld.chat/3-transactions/2-Registration.html">sign your registration transaction.</a></p>
 <p>The price for registration is currently 1 guld.</p>
-<p><img src="http:guld.chat/IMG/gai2.png" alt="Registration Transaction to gai">)</p>
+<p><img src="img/gai2.png" alt="Registration Transaction to gai">)</p>
 <p>hover your mouse over your email in the list in pgpsuite</p>
 <h3>Checking Price, balance and sending guld</h3>
 <p>Gai can also help you with your financial tasks!</p>
