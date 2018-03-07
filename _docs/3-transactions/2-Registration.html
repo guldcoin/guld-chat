@@ -213,7 +213,7 @@
     <div id="cover" class="d-print-block">
         <img id="logo" src="../img/logo.svg" class="img-responsive" alt="Guld">Chat
         <ul>
-<li><a class="" href="../1-guld.chat-setup.html">guld.chat setup</a></li>
+<li><a class="" href="../1-Setup.html">Setup</a></li>
 <li class="heading">transactions</li>
 <ul>
 <li><a class="" href="1-Application.html">Application</a></li>
@@ -251,7 +251,7 @@
             <div class="col-6 col-md-3 sidebar-offcanvas d-print-none" id="sidebar">
                 <div class="list-group">
                     <ul>
-<li><a class="" href="../1-guld.chat-setup.html">guld.chat setup</a></li>
+<li><a class="" href="../1-Setup.html">Setup</a></li>
 <li class="heading">transactions</li>
 <ul>
 <li><a class="" href="1-Application.html">Application</a></li>
@@ -265,26 +265,66 @@
             </div>
             <div class="col-12 col-md-9">
                 <div>
-                    <h1>Registration</h1>
-<h3><strong>Registering a Username on <a href="http://guld.chat/">guld</a> - Invitation Only</strong></h3>
+                    <h2>Registration</h2>
+<h4><strong>Registering a Username on <a href="http://guld.chat/">guld</a> - Invitation Only</strong></h4>
+<p><a href="http://guld.chat/3-transactions/1-Application.html">Once you have applied for your individual or group username with gai in the telegram chat</a> You will need to sign a 1 guld registration transaction.</p>
+<p>Follow these steps to send your first signed transaction to gai.</p>
 <ol>
 <li>
-<p>Hit the ‘Register’ button to prepare a registration transaction.</p>
+<p>Send a message to gai in the <a href="https://t.me/guldcoin">guld Telegram chat</a> or <a href="https://t.me/joinchat/EKTIchEMTw-lRYBFNbumnA">support group</a>, or in a direct message finding <code>gai</code> in the guld user list in any of the groups he is in.</p>
 </li>
 <li>
-<p>Fill in the the ‘sender’, ‘desired name’ and ‘amount’ fields, then hit generate.</p>
+<p>To register type command <code>/register individual username</code>, where username is your desired name.</p>
 </li>
 <li>
-<p>This will open your chat client and attach the transaction file. If setup with PGP encryption, send as inline encrypted message, to <a href="mailto:public@iramiller.com">public@iramiller.com</a></p>
-</li>
-<li>
-<p>Your desired username must be at least 4 characters and must not be taken.</p>
+<p>Gai will create a transaction like the following for you to sign.</p>
 </li>
 </ol>
-<h2><strong>How to register your <a href="guld.io">guld</a> username?</strong></h2>
-<p>In order to reserve your guld username and start interacting with the network and sign transactions on the Blocktree, you will need to configure your chat with a <a href="http://guld.chat/4-FAQ.html">PGP Key</a> pair. The debtor in the transaction to be signed uses his private key to sign the chat containing the template below replacing ‘Username’ with your desired username. You will require to send 1 guld to the ledger address ‘guld:Income:register:individual’ and the name you use must be available.</p>
-<h3><strong>For help registering join gulds <a href="https://t.me/guldcoin">Telegram group</a></strong></h3>
-<p>Help command: /help</p>
+<pre><code>2018/03/06 * register individual
+    ; timestamp: 1520397978
+    username:Assets   -1 GULD
+    username:Expenses:guld:register   1 GULD
+    guld:Liabilities   1 GULD
+    guld:Income:register:individual:username   -1 GULD
+</code></pre>
+<ol start="3">
+<li><a href="">See the guide here on how to sign the transaction</a> in order to produce a transaction like the following, preceded by the <code>/sub</code>  submit command.</li>
+</ol>
+<pre><code>/sub -----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+2018/03/06 * register individual
+    ; timestamp: 1520397978
+    username:Assets   -1 GULD
+    username:Expenses:guld:register   1 GULD
+    guld:Liabilities   1 GULD
+    guld:Income:register:individual:username   -1 GULD
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCAAdFiEEflQyPEoSv2olnyuG+mKOtSEPRCcFAlqfKK0ACgkQ+mKOtSEP
+RCeGKAf/X8Wd5hVsX7HFcgmQrHgHGh45kj5x1LyEL9SFEve3nPHZQGclD19PeHrx
+DMJQtm88u5AHUEuIlDCirdG0JWBK/UdJOIFmTQGlDNQg+vGFM3rAtYzxMtDyxPci
+DUauwCPIYdNpTmGPVwG2J3KhRB4dYnoSN2slIoomsymaYgF+Shv/f3v87tcbGA6j
+xY55U+Y7WjHXocpini9weJmDT0wL1ZjBhgp/86JW7sQv/gZRENatkEMvO5DSTE7l
+9JEPz0KH11imBdgHxMEj7R2NhNUOFIiby33FcmAxcQfM4kVGyZrzi5hmfw2Et6j0
+/jz5FQQ4QgJBOWaWkbO4ZGTtkM3z2w==
+=R7VP
+-----END PGP SIGNATURE-----
+
+</code></pre>
+<ol start="4">
+<li>
+<p>You are now registered, but your balance is -1 <a href="guld.io">GULD</a>. Before going on you’ll want to buy at least 1 <a href="guld.io">GULD</a> from some other member, to put you back in good standing.</p>
+</li>
+<li>
+<p>you can check how much guld you have by using the <code>/bal username</code> command followed by your username.</p>
+</li>
+<li>
+<p>Congratulations! You now have a functioning secure guld account. <a href="http://guld.chat/3-transactions/3-Transfers.html">You can start sending and receiving guld</a></p>
+</li>
+</ol>
+<h4>More Questions</h4>
+<p>If you have any questions: <a href="https://t.me/joinchat/EKTIchEMTw-lRYBFNbumnA">Join the Guld Support Telegram Group</a> - Our support team will gladly help you out!</p>
 
 
                 </div>
