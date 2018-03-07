@@ -1,66 +1,32 @@
-## Transfers
+# Transfers
 
-You can use gai to send GULD transactions to any other user on the network. All you need is your user name, your [PGP key for signing](http://guld.chat/4-FAQ.html), and the username of the person who you want to send GULD to.
+How to send Transfers?
 
-#### Sending guld
+**You can send transfers over guld in 2 different ways.**
 
-1. You will need to have [1. Applied](http://guld.chat/3-transactions/1-Application.html) , and [Registered to guld](http://guld.chat/3-transactions/2-Registration.html). before you can send transactions in Telegram through `gai`.
+1. Using [Guld.chat](http://guld.chat/)
 
-2. Ask gai for a transaction by using the `/send` command. You must include in the request
- * your username name 
- * recepient's username 
- * ammount of guld to send 
- 
-Sending the following command to gai `/send usernamesender receiver 5` will produce the following transaction:
+2. Using gulds [Telegram group](https://t.me/guldcoin)
 
-```
-2018/03/06 * transfer
-    ; timestamp: 1520379308
-    usernamesender:Assets   -5 GULD
-    usernamesender:Expenses   5 GULD
-    receiver:Assets   5 GULD
-    receiver:Income   -5 GULD
-```
+## Transfers done over Telegram will be done using [Gai](http://guld.chat/1-guld.chat-setup.html), the guld ai.
 
+1. You are able to transfer funds over Telegram using gulds [Telegram group](https://t.me/guldcoin)
 
-3.  Copy this text into your key manager, and sign the transaction using the key registered to the username in the first space of the command. to produce a text output like the following. 
-preface the Transaction with `/sub` to submit the transaction to gai.
+2. First you must be set up with a guld username and [PGP Key](http://guld.chat/4-FAQ.html) if you want to start transacting over [guld](http://guld.chat/)
 
-The transaction submitted to gai must look like this:
+3. To send a Transfer over Telegram type /send \<from> \<to> \<amount> \[commodity]
+    
+    ![](https://github.com/Alexstang/guld-chat/blob/patch-2/docs/img/sendcommand.jpg)
 
-```
-/sub -----BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA256
+4. Next youll be asked to "Please PGP sign the transaction file or text and send to the /sub command:"
 
-2018/03/06 * transfer
-    ; timestamp: 1520379308
-    usernamesender:Assets   -5 GULD
-    usernamesender:Expenses   5 GULD
-    receiver:Assets   5 GULD
-    receiver:Income   -5 GULD
------BEGIN PGP SIGNATURE-----
+![](https://github.com/Alexstang/guld-chat/blob/patch-2/docs/img/TransferVerification.jpg)
+  
+5. Providing you signed the transaction with your PGP key, your transaction will go through after submitting the transaction through typing /sub and entering your PGP signed file.
 
-iQEzBAEBCAAdFiEEflQyPEoSv2olnyuG+mKOtSEPRCcFAlqe4GAACgkQ+mKOtSEP
-RCelxgf/WwIl9P/GJ11RA4eU2Eh6TPuUi3quZLQqGaiATc82+fxj5Ca2nRRnTfTM
-j5fzcrnZGOZ6y4RTrDMkJuQBCbr4bJJky0pELJaU2v8NGnHC4HTXS7CjdlZ/J2Cd
-OhCgEyL/guGf2MYJp1fXvrfK1fsG3WvtK6Ef3wa5nBdGp9xXblUtlUJ172lQllJ3
-6N6QswHGfSPMxtoovKHUAmVVS33CDN4EL8TxVVtnSf+BN3s+ooBv0IQjeTdyssna
-KWGD/478qiLAU4TCMHo/ytNBla/terpHdP09YWLfBrV4pQyqY0zaMR5rG3dlQeO9
-Wccqxxjm/bXftGsGclZRhureNGeteQ==
-=K+7Q
------END PGP SIGNATURE-----
+![](https://github.com/Alexstang/guld-chat/blob/patch-2/docs/img/GuldTransaction.jpg)
+  
+  
+  ### **For help with transfers join gulds [Telegram group](https://t.me/guldcoin)**
 
-``` 
-
-#### Checking Balance
-Once a transaction been submitted, the involved accounts should reflect the changes on their balance.
-
-you can check the new balance of the debtor, and recipient account by typing either username after the `bal` command.
-
-You can have the data presented in `Dash`, `BTC`, `ETH` or USD by Typing `$`  after the username. Guld is the default unit of measurement.
-
-`/bal username $` would give the dollar value of the account and `/bal username BTC` would show the nearest Bitcoin conversion.
- 
-#### More Questions
-
-If you have any questions: [Join the Guld Support Telegram Group](https://t.me/joinchat/EKTIchEMTw-lRYBFNbumnA) - Our support team will gladly help you out!
+Help command: /help

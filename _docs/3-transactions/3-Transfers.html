@@ -213,7 +213,7 @@
     <div id="cover" class="d-print-block">
         <img id="logo" src="../img/logo.svg" class="img-responsive" alt="Guld">Chat
         <ul>
-<li><a class="" href="../1-Setup.html">Setup</a></li>
+<li><a class="" href="../1-guld.chat-setup.html">guld.chat setup</a></li>
 <li class="heading">transactions</li>
 <ul>
 <li><a class="" href="1-Application.html">Application</a></li>
@@ -251,7 +251,7 @@
             <div class="col-6 col-md-3 sidebar-offcanvas d-print-none" id="sidebar">
                 <div class="list-group">
                     <ul>
-<li><a class="" href="../1-Setup.html">Setup</a></li>
+<li><a class="" href="../1-guld.chat-setup.html">guld.chat setup</a></li>
 <li class="heading">transactions</li>
 <ul>
 <li><a class="" href="1-Application.html">Application</a></li>
@@ -265,64 +265,40 @@
             </div>
             <div class="col-12 col-md-9">
                 <div>
-                    <h2>Transfers</h2>
-<p>You can use gai to send GULD transactions to any other user on the network. All you need is your user name, your <a href="http://guld.chat/4-FAQ.html">PGP key for signing</a>, and the username of the person who you want to send GULD to.</p>
-<h4>Sending guld</h4>
+                    <h1>Transfers</h1>
+<p>How to send Transfers?</p>
+<p><strong>You can send transfers over guld in 2 different ways.</strong></p>
 <ol>
 <li>
-<p>You will need to have <a href="http://guld.chat/3-transactions/1-Application.html">1. Applied</a> , and <a href="http://guld.chat/3-transactions/2-Registration.html">Registered to guld</a>. before you can send transactions in Telegram through <code>gai</code>.</p>
+<p>Using <a href="http://guld.chat/">Guld.chat</a></p>
 </li>
 <li>
-<p>Ask gai for a transaction by using the <code>/send</code> command. You must include in the request</p>
+<p>Using gulds <a href="https://t.me/guldcoin">Telegram group</a></p>
 </li>
 </ol>
-<ul>
-<li>your username name</li>
-<li>recepient’s username</li>
-<li>ammount of guld to send</li>
-</ul>
-<p>Sending the following command to gai <code>/send usernamesender receiver 5</code> will produce the following transaction:</p>
-<pre><code>2018/03/06 * transfer
-    ; timestamp: 1520379308
-    usernamesender:Assets   -5 GULD
-    usernamesender:Expenses   5 GULD
-    receiver:Assets   5 GULD
-    receiver:Income   -5 GULD
-</code></pre>
-<ol start="3">
-<li>Copy this text into your key manager, and sign the transaction using the key registered to the username in the first space of the command. to produce a text output like the following.
-preface the Transaction with <code>/sub</code> to submit the transaction to gai.</li>
+<h2>Transfers done over Telegram will be done using <a href="http://guld.chat/1-guld.chat-setup.html">Gai</a>, the guld ai.</h2>
+<ol>
+<li>
+<p>You are able to transfer funds over Telegram using gulds <a href="https://t.me/guldcoin">Telegram group</a></p>
+</li>
+<li>
+<p>First you must be set up with a guld username and <a href="http://guld.chat/4-FAQ.html">PGP Key</a> if you want to start transacting over <a href="http://guld.chat/">guld</a></p>
+</li>
+<li>
+<p>To send a Transfer over Telegram type /send &lt;from&gt; &lt;to&gt; &lt;amount&gt; [commodity]</p>
+<p><img src="https://github.com/Alexstang/guld-chat/blob/patch-2/docs/img/sendcommand.jpg" alt=""></p>
+</li>
+<li>
+<p>Next youll be asked to “Please PGP sign the transaction file or text and send to the /sub command:”</p>
+</li>
 </ol>
-<p>The transaction submitted to gai must look like this:</p>
-<pre><code>/sub -----BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA256
-
-2018/03/06 * transfer
-    ; timestamp: 1520379308
-    usernamesender:Assets   -5 GULD
-    usernamesender:Expenses   5 GULD
-    receiver:Assets   5 GULD
-    receiver:Income   -5 GULD
------BEGIN PGP SIGNATURE-----
-
-iQEzBAEBCAAdFiEEflQyPEoSv2olnyuG+mKOtSEPRCcFAlqe4GAACgkQ+mKOtSEP
-RCelxgf/WwIl9P/GJ11RA4eU2Eh6TPuUi3quZLQqGaiATc82+fxj5Ca2nRRnTfTM
-j5fzcrnZGOZ6y4RTrDMkJuQBCbr4bJJky0pELJaU2v8NGnHC4HTXS7CjdlZ/J2Cd
-OhCgEyL/guGf2MYJp1fXvrfK1fsG3WvtK6Ef3wa5nBdGp9xXblUtlUJ172lQllJ3
-6N6QswHGfSPMxtoovKHUAmVVS33CDN4EL8TxVVtnSf+BN3s+ooBv0IQjeTdyssna
-KWGD/478qiLAU4TCMHo/ytNBla/terpHdP09YWLfBrV4pQyqY0zaMR5rG3dlQeO9
-Wccqxxjm/bXftGsGclZRhureNGeteQ==
-=K+7Q
------END PGP SIGNATURE-----
-
-</code></pre>
-<h4>Checking Balance</h4>
-<p>Once a transaction been submitted, the involved accounts should reflect the changes on their balance.</p>
-<p>you can check the new balance of the debtor, and recipient account by typing either username after the <code>bal</code> command.</p>
-<p>You can have the data presented in <code>Dash</code>, <code>BTC</code>, <code>ETH</code> or USD by Typing <code>$</code>  after the username. Guld is the default unit of measurement.</p>
-<p><code>/bal username $</code> would give the dollar value of the account and <code>/bal username BTC</code> would show the nearest Bitcoin conversion.</p>
-<h4>More Questions</h4>
-<p>If you have any questions: <a href="https://t.me/joinchat/EKTIchEMTw-lRYBFNbumnA">Join the Guld Support Telegram Group</a> - Our support team will gladly help you out!</p>
+<p><img src="https://github.com/Alexstang/guld-chat/blob/patch-2/docs/img/TransferVerification.jpg" alt=""></p>
+<ol start="5">
+<li>Providing you signed the transaction with your PGP key, your transaction will go through after submitting the transaction through typing /sub and entering your PGP signed file.</li>
+</ol>
+<p><img src="https://github.com/Alexstang/guld-chat/blob/patch-2/docs/img/GuldTransaction.jpg" alt=""></p>
+<h3><strong>For help with transfers join gulds <a href="https://t.me/guldcoin">Telegram group</a></strong></h3>
+<p>Help command: /help</p>
 
 
                 </div>
