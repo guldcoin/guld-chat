@@ -10,7 +10,7 @@ You can now Interact with the guld network and use the guld ledger to send and r
 3. [Join the Guld Support - Telegram Group available for help here.](https://t.me/joinchat/EKTIchEMTw-lRYBFNbumnA)
 
 
-![](img/gai.jpg)
+![](img/gai_logo.png)
 
 ## Getting Started
 
