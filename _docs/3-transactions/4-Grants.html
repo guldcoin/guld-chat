@@ -213,7 +213,7 @@
     <div id="cover" class="d-print-block">
         <img id="logo" src="../img/logo.svg" class="img-responsive" alt="Guld">Chat
         <ul>
-<li><a class="" href="../1-guld.chat-setup.html">setup</a></li>
+<li><a class="" href="../1-guld.chat-setup.html">Setup</a></li>
 <li class="heading">transactions</li>
 <ul>
 <li><a class="" href="1-Application.html">Application</a></li>
@@ -251,7 +251,7 @@
             <div class="col-6 col-md-3 sidebar-offcanvas d-print-none" id="sidebar">
                 <div class="list-group">
                     <ul>
-<li><a class="" href="../1-guld.chat-setup.html">setup</a></li>
+<li><a class="" href="../1-guld.chat-setup.html">Setup</a></li>
 <li class="heading">transactions</li>
 <ul>
 <li><a class="" href="1-Application.html">Application</a></li>
@@ -266,12 +266,12 @@
             <div class="col-12 col-md-9">
                 <div>
                     <h2>Grants</h2>
-<h3>How to sign guld work grants.</h3>
+<h4><a href="http://guld.chat/4-FAQ.html">How to sign guld work grants.</a></h4>
 <p>Guld is a meritocracy, meaning that the guld coins are only created through sweat and work of guld members.</p>
 <p>When you complete work for guld, you can be awarded coins through grant contracts. Grants must be approved by guld creator <code>Isysd</code> for coins to be issued.</p>
 <h2>Signing a guld grant.</h2>
 <p>Depending on your operating system, the signing process will be a bit different.</p>
-<p>Here are some tips for <a href="http://guld.chat/2-installation/2-Linux.html">Linux PGP Signing</a>, <a href="http://guld.chat/2-installation/3-MacOS.html">MacOS PGP Signing</a>, and <a href="http://guld.chat/2-installation/4-Windows.html">Windows PGP Signing</a></p>
+<p><a href="http://guld.chat/4-FAQ.html">Here you will find how to use PGP for signing your work grant.</a></p>
 <p>To sign a grant, you must:</p>
 <ol>
 <li>Open up a conversation with Gai, be it on a private message, or in the guld group, or a support group. Hit the ‘send’ button to prepare a send transaction.</li>
@@ -281,6 +281,38 @@
 <li><code>Isysd</code> will need to approve your transaction, but if he does, you will be granted guld.</li>
 <li>you can check your guld balance with gai by typing <code>/bal</code></li>
 </ol>
+<p>Grant formats look like this:</p>
+<pre><code>2018/03/07 * grant for work done
+    ; timestamp: 1520398947
+    username:Assets   5 GULD
+    username:Income   -5 GULD
+    guld:Liabilities   -5 GULD
+    guld:Equity:username   5 GULD
+</code></pre>
+<p>And the signed submitted transactions would look like the following, preceded by the <code>/sub</code> command.</p>
+<pre><code>/sub -----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+2018/03/07 * grant for work done
+    ; timestamp: 1520398947
+    username:Assets   5 GULD
+    username:Income   -5 GULD
+    guld:Liabilities   -5 GULD
+    guld:Equity:username   5 GULD
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCAAdFiEEflQyPEoSv2olnyuG+mKOtSEPRCcFAlqfLEkACgkQ+mKOtSEP
+RCdS7wf+N83XEWjnpc5eUdx/5b4KZeqiDco8LsI4eOxXfhyay/vqsWSCmFMRsW9w
+K6yI4N/CAoAlQIHEnzlhlKlABmo5Ak4leHSG9w/a3xaq3eOC8OHL6lGMETdL4gvR
+8TuaQZSLSTY+DJqXZs8lIx0cPDVh1rs5NqvOLLIYhU3zOu0avQ18MRB1+Q8KiScN
+hEGkn6xWJvk5FQ5YK4yEeNjYVkDNXMvUrBSHjxNH8CiEtOp9mdoYwQ8FlM2bp0cS
+dZURFQFhcGq/YrRRNbT/2Lfg20R3YQgn4FwMfq/usVh1bjOZSJF3i3W/6Gdtn5Xw
+2zFClbTptF1qtTogRw8v1PNTxhNXgA==
+=JQb+
+-----END PGP SIGNATURE-----
+</code></pre>
+<h4>More Questions</h4>
+<p>If you have any questions: <a href="https://t.me/joinchat/EKTIchEMTw-lRYBFNbumnA">Join the Guld Support Telegram Group</a> - Our support team will gladly help you out!</p>
 
 
                 </div>
