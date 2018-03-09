@@ -1,10 +1,10 @@
 ## Transfers
 
-You can use gai to send GULD transactions to any other user on the network. All you need is your user name, your [PGP key for signing](http://guld.chat/4-FAQ.html), and the username of the person who you want to send GULD to.
+You can use gai to send GULD transactions to any other user on the network. All you need is your username, your [PGP key for signing](http://guld.chat/4-FAQ.html), and the username of the person who you want to send GULD to.
 
 #### Sending guld
 
-1. You will need to have [1. Applied](http://guld.chat/3-transactions/1-Application.html) , and [Registered to guld](http://guld.chat/3-transactions/2-Registration.html). before you can send transactions in Telegram through `gai`.
+1. You will need to have first [Applied](http://guld.chat/3-transactions/1-Application.html) , and then [Register to guld](http://guld.chat/3-transactions/2-Registration.html) before you can send transactions in Telegram through `gai`.
 
 2. Ask gai for a transaction by using the `/send` command. You must include in the request
  * your username name 
@@ -23,8 +23,7 @@ Sending the following command to gai `/send usernamesender receiver 5` will prod
 ```
 
 
-3.  Copy this text into your key manager, and sign the transaction using the key registered to the username in the first space of the command. to produce a text output like the following. 
-preface the Transaction with `/sub` to submit the transaction to gai.
+3.  Copy this text into your key manager, and sign the transaction using the key registered to the username in the first space of the command. Preface the transaction with `/sub` to submit the transaction to gai.
 
 The transaction submitted to gai must look like this:
 
@@ -55,12 +54,12 @@ Wccqxxjm/bXftGsGclZRhureNGeteQ==
 #### Checking Balance
 Once a transaction been submitted, the involved accounts should reflect the changes on their balance.
 
-you can check the new balance of the debtor, and recipient account by typing either username after the `bal` command.
+You can check the new balance of the debtor, and recipient account by typing either username after the `bal` command.
 
-You can have the data presented in `Dash`, `BTC`, `ETH` or USD by Typing `$`  after the username. Guld is the default unit of measurement.
+You can have the data presented in `Dash`, `BTC`, `ETH` or USD by Typing `$`  after the username. GULD is the default unit of measurement.
 
 `/bal username $` would give the dollar value of the account and `/bal username BTC` would show the nearest Bitcoin conversion.
  
 #### More Questions
 
-If you have any questions: [Join the Guld Support Telegram Group](https://t.me/joinchat/EKTIchEMTw-lRYBFNbumnA) - Our support team will gladly help you out!
+If you have any questions: [Join the guld support Telegram group](https://t.me/joinchat/EKTIchEMTw-lRYBFNbumnA) - Our support team will gladly help you out!
