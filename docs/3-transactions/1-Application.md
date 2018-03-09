@@ -12,7 +12,7 @@ Applying for a guld username.
 
 5. To apply for a username, simply send the `/apply` command to gai, followed by your requested username and your public pgp key in text form in a single telegram message. [More on exporting your public key here](http://guld.chat/4-FAQ.html)
 
-6. guld user name must be unique, and more than 4 characters for it to be valid.
+6. guld username must be unique, and more than 4 characters for it to be valid.
 
 7. message sent should look like the following:
 
@@ -44,7 +44,7 @@ cmC8oUe17omSOhdEU6WfU+eaHGInIFA6KimxR9qJFZJ4Vhe2VwNjkhb0
 —---END PGP PUBLIC KEY BLOCK---—
 ```
 
-8. If successful, now we must wait for User `isysd` to approve the application.
+8. If successful, we must now Fwait for User `isysd` to approve the application.
 
 #### [Registration](http://guld.chat/3-transactions/2-Registration.html)
 
@@ -52,5 +52,5 @@ After finishing your application, [you must wait for approval and follow these s
 
 #### More Questions
 
-If you have any questions: [Join the Guld Support Telegram Group](https://t.me/joinchat/EKTIchEMTw-lRYBFNbumnA) - Our support team will gladly help you out!
+If you have any questions: [Join the guld support Telegram group](https://t.me/joinchat/EKTIchEMTw-lRYBFNbumnA) - Our support team will gladly help you out!
 
