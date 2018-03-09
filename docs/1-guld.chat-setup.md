@@ -1,30 +1,29 @@
-## gai - a guld artificial inteligence Telegram bot.
+## gai - a guld artificial intelligence Telegram bot.
 
 You can now Interact with the guld network and use the guld ledger to send and recieve guld.
 
-1. [Join our guld Telegram Group and see what gai, the guld A.I. can do for you](https://t.me/guldcoin) 
+1. [Join the guld Telegram Group and see what gai, the guld A.I. can do for you](https://t.me/guldcoin) 
 
 2. [Download and install Telegram on your computer if you haven't.](https://telegram.org/) 
 
-
-3. [Join the Guld Support - Telegram Group available for help here.](https://t.me/joinchat/EKTIchEMTw-lRYBFNbumnA)
+3. [Join the guld Support - Telegram Group available for help here.](https://t.me/joinchat/EKTIchEMTw-lRYBFNbumnA)
 
 
 ![](img/gai_logo.png)
 
 ## Getting Started
 
-1. You will need to have a computer with PGP installed in it. Follow these instructions on how to install for [Linux](http://guld.email/2-installation/2-Linux.html), [MacOS](http://guld.email/2-installation/3-MacOS.html), or your [Windows](http://guld.email/2-installation/4-Windows.html) computer.
+1. You will need to have a computer with PGP installed on it. Follow these instructions on how to install for [Linux](http://guld.email/2-installation/2-Linux.html), [MacOS](http://guld.email/2-installation/3-MacOS.html), or [Windows](http://guld.email/2-installation/4-Windows.html).
 
-2. Join the [Guld Telegram Group by clicking here.](https://t.me/guldcoin)
+2. Join the [guld Telegram Group by clicking here.](https://t.me/guldcoin)
 
-3. Once you're there, go into the user list and look for the profile under the name `gai`. Click on it, and you can start talking to him through private messages, or in any telegram group where he has been invited.  [Guld Telegram Support Is also available for your setup needs.](https://t.me/joinchat/EKTIchEMTw-lRYBFNbumnA) 
+3. Once you're there, go into the user list and look for the profile under the name `gai`. Click on it, and you can start talking to him through private messages, or in any Telegram group where he has been invited.  [guld Telegram support is also available for your setup needs.](https://t.me/joinchat/EKTIchEMTw-lRYBFNbumnA) 
 
 4. You will need to [Export your Public Key in a text block, and create signed transactions into a text block](http://guld.chat/4-FAQ.html)
 
-## Gai's Commands
+## gai's Commands
 
-Gai will help you check crypto prices, apply for a guld username, register your personal or organization's guld account, send and receive payments and much more! 
+gai will help you check crypto prices, apply for a guld username, register your personal account,device(s) or organization's guld account, send and receive payments and much more! 
 
 
 #### Help
@@ -36,21 +35,21 @@ The `/help` command presents you with the list of available commands to use with
 ![Gai Screenshot private message](img/gai2.png)
 
 
-#### [Price](http://guld.chat/3-transactions/3-Transfers.html)
+#### [Price](http://guld.chat/3-transactions/3-Transfers.htmlg
 
-gai can provide real time prices for various Crypto Currencies like Guld, Bitcoin, Dash, and Ethereum. Guld is the default price.
+gai can provide real time prices for various Crypto Currencies like GULD,Bitcoin,Dash, and Ethereum. guld is the default price.
 
-Type `/price` followed by the crypto currency  name (GULD - Default, BTC, DASH, ETH) for gai to provide the latest price of your selected coin.
+Type `/price` followed by the crypto currency  name (GULD - Default,BTC,DASH,ETH) for gai to provide the latest price of your selected coin.
 
 
 
 #### [Applying on our Telegram group](http://guld.chat/3-transactions/1-Application.html)
 
-You can Apply for your guld username by sending the `/apply` command to gai, followed by your requested username and your public pgp key in text form.
+You can Apply for your guld username by sending the `/apply` command to gai, followed by your requested username and your public PGP key in text form.
 
 ![Gai Screenshot private message](img/gai3.png)
 
-This ties up your PGP key to your Guld Username.
+This ties up your PGP key to your guld username.
 
 Your application will be reviewed and if approved, [You must submit a registration transaction to gai to finalize your membership.]
 
@@ -59,7 +58,7 @@ Once your application request has been accepted, [you will need to sign your reg
 
 #### [Registration](http://guld.chat/3-transactions/2-Registration.html)
 
-Once your application has been approved by a guld member, you may [sign your registration transaction.](http://guld.chat/3-transactions/2-Registration.html) 
+Once your application has been approved you may [sign your registration transaction.](http://guld.chat/3-transactions/2-Registration.html) 
 
 [Look at these tips for help on how to sign.](http://guld.chat/4-FAQ.html)
 
@@ -67,7 +66,7 @@ Once your application has been approved by a guld member, you may [sign your reg
 
 #### [Sending guld and checking balance](http://guld.chat/3-transactions/3-Transfers.html) 
 
-Gai is also your personal bank teller.
+gai is also your personal bank teller.
 
 You can request a "digital transaction slip" to sign, then submit to him, and he will register the transaction on your behalf to the guld ledger.
 
@@ -127,4 +126,4 @@ This is the basis of the guld meritocracy.
 
 #### More Questions
 
-If you have any questions: [Join the Guld Support Telegram Group - Our support team will gladly help you out!](https://t.me/joinchat/EKTIchEMTw-lRYBFNbumnA)
+If you have any questions: [Join the guld support Telegram group - Our support team will gladly help you out!](https://t.me/joinchat/EKTIchEMTw-lRYBFNbumnA)
