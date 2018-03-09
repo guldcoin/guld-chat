@@ -48,7 +48,7 @@ xY55U+Y7WjHXocpini9weJmDT0wL1ZjBhgp/86JW7sQv/gZRENatkEMvO5DSTE7l
 
 4. You are now registered, but your balance is -1 [GULD](guld.io). Before going on you'll want to buy at least 1 [GULD](guld.io) from some other member, to put you back in good standing.
 
-5. You cancheck how much guld you have by using the `/bal username` command followed by your username. 
+5. You can check how much guld you have by using the `/bal username` command followed by your username. 
 
 6. Congratulations! You now have a functioning secure guld account. [You can start sending and receiving guld](http://guld.chat/3-transactions/3-Transfers.html)
 
