@@ -3,7 +3,7 @@
 
 #### [How to sign guld work grants.](http://guld.chat/4-FAQ.html)
 
-Guld is a meritocracy, meaning that the guld coins are only created through sweat and work of guld members. 
+guld is a meritocracy, meaning that the guld coins are only created through sweat and work of guld members. 
 
 When you complete work for guld, you can be awarded coins through grant contracts. Grants must be approved by guld creator `Isysd` for coins to be issued.
 
@@ -15,10 +15,10 @@ Depending on your operating system, the signing process will be a bit different.
 
 To sign a grant, you must:
 
-1. Open up a conversation with Gai, be it on a private message, or in the guld group, or a support group. Hit the 'send' button to prepare a send transaction. 
+1. Open up a conversation with gai, be it on a private message, or in the guld group, or a support group. Hit the 'send' button to prepare a send transaction. 
 2. Write the transaction format `/send from to ammount` to ask gai for a specific transaction. He will produce a file and a text chat. 
 3. You can copy the text chat to your clipboard, or paste into a text editor to prepare for signing.
-4. Once you sign the transaction, you must `/sub <Signed Tx>` submit the transaction in a message to gai. He will recognize wether or or the debtor actually owns the signing key.
+4. Once you sign the transaction, you must `/sub <Signed Tx>` submit the transaction in a message to gai. He will recognize whether or not the debtor actually owns the signing key.
 5. `Isysd` will need to approve your transaction, but if he does, you will be granted guld.
 6. you can check your guld balance with gai by typing `/bal`
 
@@ -63,7 +63,7 @@ dZURFQFhcGq/YrRRNbT/2Lfg20R3YQgn4FwMfq/usVh1bjOZSJF3i3W/6Gdtn5Xw
 
 #### More Questions
 
-If you have any questions: [Join the Guld Support Telegram Group](https://t.me/joinchat/EKTIchEMTw-lRYBFNbumnA) - Our support team will gladly help you out!
+If you have any questions: [Join the guld support Telegram group](https://t.me/joinchat/EKTIchEMTw-lRYBFNbumnA) - Our support team will gladly help you out!
 
 
 
