@@ -1,6 +1,6 @@
 {
   "name": "guldchat",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Guld Chat Instructions",
   "main": "index.js",
   "dependencies": {
@@ -18,7 +18,7 @@
   "author": "Chriss Mejía",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chrissmejia/guld-chat/issues"
+    "url": "https://github.com/guldcoin/guld-chat/issues"
   },
-  "homepage": "https://github.com/chrissmejia/guld-chat/#readme"
+  "homepage": "https://github.com/guldcoin/guld-chat/#readme"
 }
