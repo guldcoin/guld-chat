@@ -1,6 +1,6 @@
 ## gai - a guld artificial intelligence Telegram bot.
 
-You can now Interact with the guld network and use the guld ledger to send and recieve guld.
+You can now Interact with the guld network and use the guld ledger to send and receive guld.
 
 1. [Join the guld Telegram Group and see what gai, the guld A.I. can do for you](https://t.me/guldcoin) 
 
