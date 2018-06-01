@@ -2,7 +2,7 @@
 
 You can now Interact with the guld network and use the guld ledger to send and receive guld.
 
-1. [Join the guld Telegram Group and see what gai, the guld A.I. can do for you](https://t.me/guldcoin) 
+1. [Join the guld Telegram Group and see what gai, the guld A.I. can do for you](https://t.me/guldblocktree) 
 
 2. [Download and install Telegram on your computer if you haven't.](https://telegram.org/) 
 
@@ -15,7 +15,7 @@ You can now Interact with the guld network and use the guld ledger to send and r
 
 1. You will need to have a computer with PGP installed on it. Follow these instructions on how to install for [Linux](http://guld.email/2-installation/2-Linux.html), [MacOS](http://guld.email/2-installation/3-MacOS.html), or [Windows](http://guld.email/2-installation/4-Windows.html).
 
-2. Join the [guld Telegram Group by clicking here.](https://t.me/guldcoin)
+2. Join the [guld Telegram Group by clicking here.](https://t.me/guldblocktree)
 
 3. Once you're there, go into the user list and look for the profile under the name `gai`. Click on it, and you can start talking to him through private messages, or in any Telegram group where he has been invited.  [guld Telegram support is also available for your setup needs.](https://t.me/joinchat/EKTIchEMTw-lRYBFNbumnA) 
 
